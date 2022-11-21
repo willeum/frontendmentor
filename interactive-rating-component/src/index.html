@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link href="./styles.css" rel="stylesheet" />
@@ -20,26 +20,50 @@
     <title>Frontend Mentor | Interactive rating component</title>
   </head>
   <body>
-    <div class="container"></div>
+    <div class="container">
+      <div class="interactive-card">
+        <div class="circle star">
+          <svg width="17" height="16" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m9.067.43 1.99 4.031c.112.228.33.386.58.422l4.45.647a.772.772 0 0 1 .427 1.316l-3.22 3.138a.773.773 0 0 0-.222.683l.76 4.431a.772.772 0 0 1-1.12.813l-3.98-2.092a.773.773 0 0 0-.718 0l-3.98 2.092a.772.772 0 0 1-1.119-.813l.76-4.431a.77.77 0 0 0-.222-.683L.233 6.846A.772.772 0 0 1 .661 5.53l4.449-.647a.772.772 0 0 0 .58-.422L7.68.43a.774.774 0 0 1 1.387 0Z"
+              fill="#FC7614"
+            />
+          </svg>
+        </div>
+        <p class="review-head">How did we do?</p>
+        <p class="review-copy">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <div class="circle-ratings">
+          <div class="circle">1</div>
+          <div class="circle">2</div>
+          <div class="circle">3</div>
+          <div class="circle">4</div>
+          <div class="circle">5</div>
+        </div>
+        <div class="submit">SUBMIT</div>
+      </div>
+    </div>
+    <footer
+      style="
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      "
+    >
+      <span>
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor</a
+        >
+      </span>
+      <span style="padding-bottom: 4px">
+        Coded by:
+        <a href="https://github.com/willeum/frontendmentor" target="_blank">
+          William Kim</a
+        >
+      </span>
+    </footer>
   </body>
-  <footer
-    style="
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      align-items: center;
-    "
-  >
-    <span>
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
-        Frontend Mentor</a
-      >
-    </span>
-    <span style="padding-bottom: 4px">
-      Coded by:
-      <a href="https://github.com/willeum/frontendmentor" target="_blank">
-        William Kim</a
-      >
-    </span>
-  </footer>
 </html>
