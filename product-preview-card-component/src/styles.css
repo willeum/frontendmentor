@@ -40,7 +40,7 @@ h1 {
   justify-content: center;
   height: 100%;
   width: 100%;
-  padding: 18px;
+  padding: 18px 18px 0px 18px;
 }
 
 .copy-margin {
